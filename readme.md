@@ -3,33 +3,32 @@ TO DO LIST APP
 ============
 
 ## Table of Contents
-1. [Briefing](#BRIEFING)
-2. [Objectives](#OBJECTIVES)
-3. [Techniquesused](#TECHNIQUESUSED)
-
+1. [Description](#description)
+2. [Objectives](#objectives)
+3. [Techniques used](#techniques-used)
 
 ***
 
-## LINK
+## Link
 
 [)
 
 
-## BRIEFING 
+## Description 
 This is an application that allows you to create a to-do list.
 
-## OBJECTIVES
+## Objectives
 - Edit the task content.
 - Delete all tasks of the list.
 
-## IU DESIGN
+### UI Design
 
 
-## TECHNOLOGIES
+## Technologies
 - HTML 5
 - CSS 3
 - JS ES6  VANILLA
 
-## TECHNIQUES USED
+## Techniques used
 - Responsive Design.
 - Modularity.
