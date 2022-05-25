@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@500&display=swap');
+@import url(./styles_header.css);
+@import url(./styles_lista.css);
+
+/* Incluir el relleno y el borde en la anchura y altura total de un elemento */
+* {
+  box-sizing: border-box;
+}
+
+
+#App{
+  display: flex;  
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+
+
+
+
+

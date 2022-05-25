@@ -1,0 +1,66 @@
+
+
+#container{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Eliminar los márgenes y el relleno de la lista */
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: #D5E5F4;
+}
+
+/* Estilizar los elementos de la lista */
+ul li {
+  cursor: pointer;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #A6CBF1;
+  color:#206FBF;
+  font-size: 18px;
+  transition: 0.2s;
+  padding: 1.2%;
+  
+  /* hacer que los elementos de la lista no sean seleccionables */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Poner todos los elementos impares de la lista en un color 
+diferente (rayas de cebra) */
+ul li:nth-child(odd) {
+  background: #C5DCF4;
+}
+
+/* Color de fondo más oscuro al pasar por encima */
+ul li:hover {
+  background: #77a7d8;
+
+}
+
+/* Botón de borrar */
+.img_delete {
+  width: 5%;
+  height: 5%;
+  float: right;
+}
+
+/* Botón de borrar */
+.deleteButton {
+  float: right;
+  color: #e88b87;
+  align-items: flex-start;  
+  border: none;
+  background-color: transparent;
+}
+
+
+
+
+

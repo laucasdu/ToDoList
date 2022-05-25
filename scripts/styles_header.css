@@ -1,0 +1,92 @@
+
+/* Estilos de la cabecera */
+
+.header{
+  background-image: url("../img/fondo_color_.jpg");
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  
+}
+
+/* Limpiar los floats después de la cabecera */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Estilos del título TO DO LIST */
+h1{
+  font-size: 50px;
+  color: #206FBF;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Estilos del input */
+#todoInput {
+  margin: 0;
+  border: none;
+  padding-top: 10%;
+  border-radius: 0;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  padding: 1%;
+  float: left;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+/* Estilos de "Add" button */
+#addButton {
+  padding: 10px;
+  background: #206FBF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 1%;
+  transition: 0.3s;
+  border-radius: 0;
+  border: none;
+  width: 10%;
+  opacity: 0.6;
+  transition: 0.3s;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.fa-solid{
+  font-size: 30px;
+
+}
+
+
+/* Estilos de "Add" button cuando el cursor pasa por encima */
+.addBtn:hover {
+  opacity: 1}
+
+
+  /* Si el tamaño de la pantalla es de 601px o más, establece el 
+tamaño de la fuente de <div> a 80px */
+@media screen and (min-width: 601px) {
+h1 {
+  font-size: 80px;
+}
+
+}
+
+/* Si el tamaño de la pantalla es de 600px o menos, establece el 
+tamaño de la fuente de <div> a 30px */
+@media screen and (max-width: 600px) {
+h1 {
+  font-size: 30px;
+}
+
+.header {
+  background-image: url("../img/fondo_peque.jpg");
+
+}
+}
