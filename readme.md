@@ -11,7 +11,7 @@ TO DO LIST APP
 
 ## Link
 
-[)
+https://laucasdu.github.io/ToDoList/
 
 
 ## Description 
