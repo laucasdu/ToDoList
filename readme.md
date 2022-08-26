@@ -23,6 +23,7 @@ This is an application that allows you to create a to-do list.
 
 ### UI Design
 
+![TODOLIST_MACKBOOK](https://user-images.githubusercontent.com/102957525/186826980-eada66f2-7bf3-4ff7-b047-979e539b1841.jpg)
 
 ## Technologies
 - HTML 5
